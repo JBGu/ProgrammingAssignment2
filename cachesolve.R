@@ -1,3 +1,7 @@
+# cacheSolve computes the inverse of the matrix. If the inverse has been already
+# calculated before, it returns  the value of the inverse  contained in the cache.
+
+
 cacheSolve <- function(x, ...) {
         #calling of getinverse() from makeCacheMatrix which returns content of the cache
         Inv <- x$getinverse()

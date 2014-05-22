@@ -1,4 +1,9 @@
-makeCacheMatrix <- function(x = numeric()) {
+
+# makeCacheMatrix return a list of 4 functions to :
+# Set  and get the value of the matrix
+# Set the value of the inverse get the value of the inverse
+
+makeCacheMatrix <- function(x = matrix()) {
         #set cache of the inverse matrix to NULL
         Inv <- NULL
         
